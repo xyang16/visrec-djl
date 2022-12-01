@@ -14,7 +14,7 @@ version = "0.8.0" + (isRelease ? "" : "-SNAPSHOT")
 
 dependencies {
     api 'javax.visrec:visrec-api:1.0.5'
-    api platform("ai.djl:bom:0.19.0")
+    api platform("ai.djl:bom:0.20.0")
     api "ai.djl:api"
     api "ai.djl:basicdataset"
     api "ai.djl:model-zoo"
